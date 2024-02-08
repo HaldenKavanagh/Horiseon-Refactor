@@ -1,4 +1,4 @@
-/* general styles */
+/* general styling */
 
 * {
   box-sizing: border-box;
@@ -14,15 +14,6 @@ p {
   font-size: 16px;
 }
 
-.hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .float-left {
   float: left;
   margin-right: 25px;
@@ -33,7 +24,7 @@ p {
   margin-left: 25px;
 }
 
-/* header/ navigation */
+/* navbar styling */
 
 .header {
   padding: 20px;
@@ -41,15 +32,6 @@ p {
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
-}
-
-.horiseon-logo {
-  display: inline-block;
-  font-size: 48px;
-}
-
-.horiseon-logo .seo {
-  color: #d9dcd6;
 }
 
 .nav-bar {
@@ -60,11 +42,8 @@ p {
   font-size: 20px;
 }
 
-.nav-bar ul {
-  list-style-type: none;
-}
-
 .nav-bar ul li {
+  list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
@@ -74,7 +53,29 @@ p {
   text-decoration: none;
 }
 
-/* content section */
+/* styling for horiseon logo in nav bar */
+
+.horiseon-logo {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.horiseon-logo .seo {
+  color: #d9dcd6;
+}
+
+/* styling for main image of a team working */
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* content section (main content) */
 
 .content {
   width: 75%;
@@ -100,7 +101,7 @@ p {
   font-size: 36px;
 }
 
-/* benefit section */
+/* benefit section (side bar) */
 
 .benefits {
   margin-right: 20px;
